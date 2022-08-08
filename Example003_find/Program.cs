@@ -10,9 +10,9 @@
         {
             if (array[index] == find)
             {
+                Console.WriteLine($"Это число является {index + 1} элементом массива");
                 Done = true;
-                break;
             }
             index += 1;
         }
-        Console.WriteLine(Done ? $"Это число является {index + 1} элементом массива" : "Такого числа нет в массиве.");
+        Console.WriteLine(Done ? "Больше это число не встречается в массиве" : "Такого числа нет в массиве.");
