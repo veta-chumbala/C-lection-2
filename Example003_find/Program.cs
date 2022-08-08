@@ -1,8 +1,4 @@
-﻿internal class Program
-{
-    private static void Main(string[] args)
-    {
-        int[] array = { 29, 402, 64, 74, 25, 78, 25, 402, 84 };
+﻿        int[] array = { 29, 402, 64, 74, 25, 78, 25, 402, 84 };
         bool Done = false;
         int n = array.Length;
         Console.WriteLine("Введите число, которое надо найти:");
@@ -20,5 +16,3 @@
             index += 1;
         }
         Console.WriteLine(Done ? $"Это число является {index + 1} элементом массива" : "Такого числа нет в массиве.");
-    }
-}
